@@ -1,0 +1,7 @@
+[build]
+  # Directorio donde Netlify buscará tus funciones serverless
+  functions = "functions"
+
+[functions]
+  # Especifica la versión de Python que se usará para tus funciones
+  python_version = "3.9" # Puedes usar 3.8, 3.9, 3.10, 3.11, etc. según la disponibilidad en Netlify
